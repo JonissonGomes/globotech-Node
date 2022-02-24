@@ -1,0 +1,13 @@
+Passo 1
+Consumir a API do Rick & Morty(usando Axios)
+(https://rickandmortyapi.com/documentation/#rest)
+Gravar a resposta num arquivo JSON
+usar a rota para obteger um personagem especifico
+
+Passo 2
+Consumir a API do Rick & Morty especifico
+(https://rickandmortyapi.com/api/character/?name=rick&status=alive)
+Pegar um personagem especifico e salvar em um arquivo JSON
+Usar o módulo FS (usar o write file)
+
+Plus(Deixar o arquivo formatado)
