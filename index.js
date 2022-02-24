@@ -27,11 +27,9 @@ function createDocument(arquivo) {
 
 // ATIVIDADE 2
 
-// Consumir uma rota da API específica
-const apiCustom = axios.create({
-    baseURL: 'https://rickandmortyapi.com/api/character/?name=rick&status=alive'
-});
-
 // Criar função para capturar os dados da API
+async function getDataApiCustom() {
+    const request = await apiService.get('/character/?name=rick&status=alive')
+}
 
 // Criar a função para gravar os arquivos no formato JSON e formata-lo
