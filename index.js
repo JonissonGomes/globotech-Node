@@ -21,7 +21,6 @@ function createDocument(arquivo) {
     let nomeDoArquivo = "PersonagensRick-Morty"
     fs.writeFile( nomeDoArquivo, JSON.stringify(dadosRecebidos), "utf-8", (err) => {
         if(err) throw err;
-    console.log( nomeDoArquivo, ' foi criado com sucesso')
      })
 }
 
@@ -30,6 +29,16 @@ function createDocument(arquivo) {
 // Criar função para capturar os dados da API
 async function getDataApiCustom() {
     const request = await apiService.get('/character/?name=rick&status=alive')
+    createDocumentFormated(request.data.results)
 }
 
+getDataApiCustom()
+
 // Criar a função para gravar os arquivos no formato JSON e formata-lo
+function createDocumentFormated(arquivo) {
+    let dadosRecebidos = arquivo
+    let nomeDoArquivo = "PersonagensRick-Morty.json"
+    fs.writeFile( nomeDoArquivo, JSON.stringify(dadosRecebidos), "utf-8", (err) => {
+        if(err) throw err;
+    })
+}
