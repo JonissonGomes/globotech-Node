@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JonissonGomes/globotech-Node/issues"
   },
-  "homepage": "https://github.com/JonissonGomes/globotech-Node#readme"
+  "homepage": "https://github.com/JonissonGomes/globotech-Node#readme",
+  "dependencies": {
+    "axios": "0.26.0"
+  }
 }
