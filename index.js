@@ -25,7 +25,6 @@ function createDocument(arquivo) {
 }
 
 // ATIVIDADE 2
-
 // Criar função para capturar os dados da API
 async function getDataApiCustom() {
     const request = await apiService.get('/character/?name=rick&status=alive')
