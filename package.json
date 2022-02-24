@@ -1,0 +1,20 @@
+{
+  "name": "globotech-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonissonGomes/globotech-Node.git"
+  },
+  "keywords": [],
+  "author": "Allan Garcia, Gizele Rodrigues, Jonisson GOmes, Raquel Vargas, Marianna Veras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonissonGomes/globotech-Node/issues"
+  },
+  "homepage": "https://github.com/JonissonGomes/globotech-Node#readme"
+}
